@@ -1,7 +1,7 @@
 {
   "name": "favoritospod",
   "version": "0.1.0",
-  "summary": "A short description of favoritospod.",
+  "summary": "pod favoritos para bcp",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/jgarcipi/favoritospod",
   "license": {
@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "favoritospod/Classes/**/*"
+  "source_files": "favoritospod/Classes/**/*",
+  "resource_bundles": {
+    "favoritospod": [
+      "favoritospod/Assets/*.{storyboard,xib,png}"
+    ]
+  }
 }
