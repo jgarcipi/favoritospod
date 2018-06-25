@@ -1,0 +1,6 @@
+framework module favoritospod {
+  umbrella header "favoritospod-umbrella.h"
+
+  export *
+  module * { export * }
+}
